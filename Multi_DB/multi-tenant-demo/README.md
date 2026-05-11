@@ -9,18 +9,18 @@ Both approaches have trade-offs, and the choice depends on business needs.
 
 ## Highlights
 
-0:02 **Introduction to Multi-tenancy**
+ **Introduction to Multi-tenancy**
 
 - Defined as serving multiple customers with isolated data.
 - Important for modern apps and interviews.
 
-1:00 **Apartment Building Analogy**
+ **Apartment Building Analogy**
 
 - Building = application, apartments = tenants.
 - Shared infrastructure (water, electricity, lift).
 - Private spaces represent isolated customer data.
 
-5:00 **Real-world Example: Shopify**
+**Real-world Example: Shopify**
 
 - Multiple businesses use Shopify via subscription.
 - Each business has its own customers and data.
@@ -32,13 +32,13 @@ Both approaches have trade-offs, and the choice depends on business needs.
 - Becomes complex and resource-heavy at scale.
 - Leads to inefficiency and maintenance issues.
 
-14:00 **Shared Database Approach**
+ **Shared Database Approach**
 
 - One application, one database.
 - Tenant IDs used to separate customer records.
 - Easier scaling but requires careful query filtering.
 
-19:00 **Trade-offs & Conclusion**
+**Trade-offs & Conclusion**
 
 - Separate DBs = strong isolation, harder scaling.
 - Shared DB = easier scaling, risk of data leaks if queries aren’t careful.
